@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    /* display: flex; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", serif;
+}
+
+body{
+    font-family: "Manrope", serif;
+}
+
+.portada {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;  /*Centra horizontalmente */
+    align-items: center;  /* Centra verticalmente */
+    width: 100%; 
+    height: 100%;  /* Ajusta la altura */
+    color: white;
+    overflow: hidden;   /* Evita desbordamientos */
+}
+
+  
+.portada img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+
+}
+
+.summary{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.retrato{
+    display: flex;
+    padding: 15px 30px;
+}
+
+.retrato img{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    transform: scale(0.6);
+}
+
+.area-de-texto{
+    flex-basis: 800px;
+    padding: 15px 20px 5px 2px;
+    text-align: center;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background: #222;
+    padding: 20px;
+}
+
+._blank{
+    text-decoration: none;
+    color: white;
+    background: #333;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+
+
+
+
+.encabezados{
+    text-align: center;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.search-box{
+    text-align: right;
+}
+
+.secciones-recomendadas{
+    text-align: left;
+}
+
+.blog{
+    text-align: left;
+}
+
+.footer img{
+    width: 25px;
+    height: 25px;
+    background: #333;
+}
+
+.fixed-text{
+    text-align: center;
+}
+
+.botones-contacto{
+    text-align: left;
+}
+
+.mapa{
+    text-align: left;
+}
+
+
+
+
+/* Para el blog: */
+.blogs{
+    display: grid;
+    /* grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    width: 400px; */
+    padding: 15px;
+}
+
+.blog-post {
+    display: grid;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+
+    
+}
+
+.post-title {
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+.post-meta {
+    font-size: 14px;
+    color: #999;
+}
+
+.post-excerpt {
+    font-size: 16px;
+    color: #444;
+}
+
+.read-more {
+    color: #1d2221;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* Formulario: */
+.formulario{
+    text-align: left;
+    padding: 15px;
+}
+
+.button{
+    padding: 15px;
+    margin: 50px;
+}
